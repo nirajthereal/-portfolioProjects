@@ -1,0 +1,35 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:arial;
+}
+
+body,html{
+    height:100%;
+    width:100%;
+    color:#fff;
+}
+
+.container{
+    height: 100%;
+    width:100%;
+    position:relative;
+}
+ 
+.nav {
+    height:100px;
+    width:100%;
+    background-color: blue;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-part1{
+   
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:5vw;
+    padding:3vw 6vw;
+
+}
